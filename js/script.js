@@ -6,9 +6,9 @@
     "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=twopart";
 
   // Select the HTML elements
-  const setupElement = document.querySelector("#joke-setup");
-  const deliveryElement = document.querySelector("#joke-delivery");
-  const buttonElement = document.querySelector("#load-another");
+  const setupElement = document.querySelector("#jokeSetup");
+  const deliveryElement = document.querySelector("#jokeDelivery");
+  const buttonElement = document.querySelector("#loadAnother");
 
   // Function to handle errors
   const handleError = (error) => {
