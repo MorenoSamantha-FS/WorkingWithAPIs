@@ -1,6 +1,5 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color:
   justify-content: center;
   align-items: center;
   display: flex;
@@ -12,47 +11,48 @@ body {
 }
 
 header {
-    background-image: url("../img/fadedLights.jpg");
-    width: 80%;
-    padding: 20px;
-    margin: 40px;
-    background-size: cover;
-    background-position: bottom;
-    border-radius: 40px;
-    text-align: center;
+  background-image: url("../img/fadedLights.jpg");
+  width: 80%;
+  padding: 20px;
+  margin: 40px;
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 40px;
+  text-align: center;
 }
 
 h1 {
-    color:rgb(248, 248, 248);
-    text-shadow: 2px 2px 2px rgb(9, 1, 20);
-    font-size: 3rem;
-    outline: rgb(25, 18, 34) solid 2px;
-    background-color: rgba(31, 13, 54, 0.637);
-    border-radius: 20px;
-    padding: 10px;
+  color: rgb(248, 248, 248);
+  text-shadow: 2px 2px 2px rgb(9, 1, 20);
+  font-size: 3rem;
+  outline: rgb(25, 18, 34) solid 2px;
+  background-color: rgba(31, 13, 54, 0.637);
+  border-radius: 20px;
+  padding: 10px;
 }
 
 h2 {
-    color:rgb(75, 48, 95);
-    text-shadow: 4px 4px 3px rgb(216, 198, 239);
-    font-size: 1.5rem;
-    font-weight: lighter;
-    font-style: italic;
-    padding: 10px;
-    outline: rgb(22, 2, 22) solid 2px;
-    border-radius: 20px;
-    background-color: rgba(230, 223, 239, 0.685);
+  color: rgb(75, 48, 95);
+  text-shadow: 4px 4px 3px rgb(216, 198, 239);
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(230, 223, 239, 0.458);
+  width: fit-content;
+  margin-left: 75%;
 }
 
 #punchline {
-    color:rgb(177, 12, 152);
-    text-shadow: 2px 2px 5px rgb(230, 223, 239);
-    font-weight: lighter;
-    font-style: italic;
+  color: rgb(177, 12, 152);
+  text-shadow: 2px 2px 5px rgb(230, 223, 239);
+  font-weight: lighter;
+  font-style: italic;
 }
 
 #jokeTime {
-  background: linear-gradient(to bottom, #f4daf2, #f0f0f0);
+  background-image: url("../img/gradient.jpg");
   background-size: cover;
   background-position: bottom;
   padding: 20px;
@@ -64,26 +64,36 @@ h2 {
   margin: 40px;
 }
 
-#joke-setup {
-    margin: 20px;
+#jokeSetup {
+  margin: 20px;
+  background-color: rgba(241, 239, 243, 0.685);
+  border-radius: 40px;
+  padding: 30px;
 }
 
-#joke-delivery {
-    margin-top: 70px;
-    margin-bottom: 50px;
+#jokeDelivery {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  background-color: rgba(241, 239, 243, 0.685);
+  border-radius: 40px;
+  padding: 30px;
+  width: fit-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 40px;
 }
 
 #loadAnother {
-    background-color: rgba(83, 79, 87, 0.637);
-    color: rgb(248, 248, 248);
-    font-size: 1rem;
-    padding: 10px 20px;
-    border-radius: 20px;
-    outline: rgb(22, 2, 22) solid 2px;
-    cursor: pointer;
+  background-color: rgba(8, 11, 73, 0.637);
+  color: rgb(248, 248, 248);
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  outline: rgb(22, 2, 22) solid 2px;
+  cursor: pointer;
 }
 
 #loadAnother:hover {
-    background-color: rgba(248, 248, 248, 0.637);
-    color: rgba(31, 13, 54, 0.637);
+  background-color: rgba(246, 191, 237, 0.996);
+  color: rgba(31, 13, 54, 0.637);
 }
