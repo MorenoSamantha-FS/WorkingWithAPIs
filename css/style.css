@@ -1,0 +1,61 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color:
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/whiteTexture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+    background-image: url("../img/fadedLights.jpg");
+    width: 80%;
+    padding: 20px;
+    margin: 40px;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 40px;
+    text-align: center;
+}
+
+h1 {
+    color:rgb(248, 248, 248);
+    text-shadow: 2px 2px 2px rgb(9, 1, 20);
+    font-size: 3rem;
+    outline: rgb(25, 18, 34) solid 2px;
+    background-color: rgba(31, 13, 54, 0.637);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h2 {
+    color:rgb(75, 48, 95);
+    text-shadow: 4px 4px 3px rgb(216, 198, 239);
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 10px;
+    outline: rgb(22, 2, 22) solid 2px;
+    border-radius: 20px;
+    background-color: rgba(230, 223, 239, 0.685);
+}
+
+#punchline {
+    color:rgb(177, 12, 152);
+    text-shadow: 2px 2px 5px rgb(230, 223, 239);
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#jokeTime {
+  background: linear-gradient(to bottom, #f4daf2, #f0f0f0);
+  background-size: cover;
+  background-position: bottom;
+  padding: 20px;
+  border-radius: 40px;
+  text-align: center;
+}
